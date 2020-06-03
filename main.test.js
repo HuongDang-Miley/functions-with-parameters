@@ -3,6 +3,31 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Miley';
+let greeting = 'HEY';
+
+function multiply(a){
+x = x * a;
+}
+
+function modYBy(b) {
+y = y % b;
+}
+
+function opposite(c) {
+  z = -c;
+}
+
+function makeFullName(lastName) {
+  name = name + ' ' + lastName;
+}
+
+function yellAt(something) {
+  greeting = greeting + ', ' + something + '!'
+}
 
 
 
